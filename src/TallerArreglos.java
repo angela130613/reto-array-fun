@@ -36,8 +36,13 @@ public class TallerArreglos {
 
     // Método para encontrar el número mayor
     public static int encontrarMayor(int[] arr) {
-        // Implementa este método
-        return 0;
+        int mayor = arr[0];
+        for (int num : arr) {
+            if (num > mayor) {
+                mayor = num;
+            }
+        }
+        return mayor;
     }
 
     // Método para calcular el promedio
