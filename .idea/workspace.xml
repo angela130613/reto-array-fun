@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="755a602b-8d72-4d80-9ec3-cbe55e22fdab" name="Changes" comment="primer commit">
+    <list default="true" id="755a602b-8d72-4d80-9ec3-cbe55e22fdab" name="Changes" comment="metodo para ordenar el arreglo">
+      <change afterPath="$PROJECT_DIR$/src/GestionEstudiantes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TallerArreglos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TallerArreglos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GestionEstudiantes.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TallerArreglos.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,11 +80,47 @@
       <option name="project" value="LOCAL" />
       <updated>1723052317192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="encontrar el numero mayor">
+      <option name="closed" value="true" />
+      <created>1723057221937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723057221937</updated>
+    </task>
+    <task id="LOCAL-00004" summary="calcular el promedio">
+      <option name="closed" value="true" />
+      <created>1723057357197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723057357197</updated>
+    </task>
+    <task id="LOCAL-00005" summary="forma de invertir el arreglo">
+      <option name="closed" value="true" />
+      <created>1723057670258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723057670258</updated>
+    </task>
+    <task id="LOCAL-00006" summary="metodo para ordenar el arreglo">
+      <option name="closed" value="true" />
+      <created>1723058235627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723058235627</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+    <MESSAGE value="encontrar el numero mayor" />
+    <MESSAGE value="calcular el promedio" />
+    <MESSAGE value="forma de invertir el arreglo" />
+    <MESSAGE value="metodo para ordenar el arreglo" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo para ordenar el arreglo" />
   </component>
 </project>
