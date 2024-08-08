@@ -60,6 +60,10 @@ public class GestionEstudiantes {
                 mejorEstudiante = estudiantes[i];
             }
         }
+        System.out.println("\nEl estudiante con el mejor promedio es " + mejorEstudiante + " con un promedio de " + mejorPromedio);
+    }
+
+
 
 
 
