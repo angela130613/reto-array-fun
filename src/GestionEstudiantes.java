@@ -63,6 +63,27 @@ public class GestionEstudiantes {
         System.out.println("\nEl estudiante con el mejor promedio es " + mejorEstudiante + " con un promedio de " + mejorPromedio);
     }
 
+    public static void encontrarMejorMateria(String[] materias, double[][] notas) {
+        double[] sumaMaterias = new double[materias.length];
+        for (int i = 0; i < notas.length; i++) {
+            for (int j = 0; j < notas[i].length; j++) {
+                sumaMaterias[j] += notas[i][j];
+            }
+        }
+        double mejorPromedio = 0;
+        String mejorMateria = "";
+        for (int i = 0; i < materias.length; i++) {
+            double promedio = sumaMaterias[i] / notas.length;
+            if (promedio > mejorPromedio) {
+                mejorPromedio = promedio;
+                mejorMateria = materias[i];
+            }
+        }
+        System.out.println("\nLa materia con el mejor promedio es " + mejorMateria + " con un promedio de " + mejorPromedio);
+    }
+}
+
+
 
 
 
