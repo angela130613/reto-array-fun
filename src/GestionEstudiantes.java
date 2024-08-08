@@ -26,19 +26,11 @@ public class GestionEstudiantes {
 
     public static void mostrarInformacionEstudiantes(String[] estudiantes, String[] materias, double[][] notas) {
         System.out.println("Información de los estudiantes:");
-        // Implementa este método
+        for (int i = 0; i < estudiantes.length; i++) {
+            System.out.println("Estudiante: " + estudiantes[i]);
+            for (int j = 0; j < materias.length; j++) {
+                System.out.println("  " + materias[j] + ": " + notas[i][j]);
+            }
+        }
     }
 
-    public static void calcularPromedios(String[] estudiantes, double[][] notas) {
-        System.out.println("\nPromedios de los estudiantes:");
-        // Implementa este método
-    }
-
-    public static void encontrarMejorEstudiante(String[] estudiantes, double[][] notas) {
-        // Implementa este método
-    }
-
-    public static void encontrarMejorMateria(String[] materias, double[][] notas) {
-        // Implementa este método
-    }
-}
